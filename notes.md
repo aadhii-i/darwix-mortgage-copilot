@@ -2,3 +2,4 @@
 - minor style fixes @ 2026-05-18T16:28:28+05:30
 - fix off-by-one @ 2026-06-18T21:01:45+05:30
 - handle null input @ 2026-08-06T22:27:29+05:30
+- improve error handling @ 2026-04-21T20:14:16+05:30
