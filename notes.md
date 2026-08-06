@@ -1,3 +1,4 @@
 - improve naming @ 2026-02-23T10:49:41+05:30
 - minor style fixes @ 2026-05-18T16:28:28+05:30
 - fix off-by-one @ 2026-06-18T21:01:45+05:30
+- handle null input @ 2026-08-06T22:27:29+05:30
