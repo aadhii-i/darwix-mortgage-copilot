@@ -24,3 +24,4 @@ Dismiss and Escalate work on every nudge, and the summary, manager, and ops view
 - `index.html`: page shell
 - `styles.css`: visual identity from the deck (indigo, lavender AI surfaces, amber compliance)
 - `app.js`: scripted meeting, intervention logic, agent decisions, and all screens
+# darwix-mortgage-copilot
