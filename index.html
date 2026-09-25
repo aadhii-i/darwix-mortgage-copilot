@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Darwix Mortgage Copilot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <div class="logo"><span class="logo-mark" aria-hidden="true"></span>DARWIX AI <small>Mortgage Copilot</small></div>
+    <nav class="nav" id="nav" aria-label="Prototype screens"></nav>
+    <div class="agent-chip"><span>Dana Brooks · Mortgage Agent</span><div class="avatar" aria-hidden="true">DB</div></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="v-dashboard" class="view"></section>
+  <section id="v-brief" class="view" hidden></section>
+  <section id="v-live" class="view" hidden></section>
+  <section id="v-review" class="view" hidden></section>
+  <section id="v-actions" class="view" hidden></section>
+  <section id="v-manager" class="view" hidden></section>
+  <section id="v-ops" class="view" hidden></section>
+</main>
+
+<div class="guide" id="guide" role="region" aria-label="Guided demo">
+  <div class="wrap guide-in" id="guideIn"></div>
+</div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<div id="modalRoot"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
